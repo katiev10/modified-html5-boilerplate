@@ -1,3 +1,9 @@
 _header.scss
 
 @imports 'header.scss'
+
+
+header ul{
+grid-row: 1 / span 2;
+
+}
