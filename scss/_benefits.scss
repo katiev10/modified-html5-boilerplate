@@ -1,0 +1,24 @@
+.benefits {
+  div {
+    padding: 1rem;
+  }
+  div:nth-child(odd){
+    background-color: pink;
+  }
+  div:nth-child(even){
+    background-color: grey;
+  }
+  @media screen and (min-width: 40em){
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    height: 90vh;
+    margin-bottom: 1rem;
+    div:nth-child(4){
+   
+    }
+  }
+}
+
+* { box-sizing: border-box; }

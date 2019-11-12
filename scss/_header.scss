@@ -1,9 +1,9 @@
-_header.scss
-
-@imports 'header.scss'
-
-
 header ul{
-grid-row: 1 / span 2;
-
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	background-color: #EFEFEF;
+	img{
+		width: 50%;
+	}
 }
+
