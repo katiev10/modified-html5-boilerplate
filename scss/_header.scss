@@ -2,8 +2,55 @@ header ul{
 	display: grid;
 	grid-template-columns: repeat(5,1fr);
 	background-color: #EFEFEF;
+	font-family: 'Staatliches', cursive;
+	font-size: 2rem;
+	color:#0000;
 	img{
 		width: 50%;
 	}
+
 }
 
+a{
+    
+    text-decoration: none;
+}
+
+ul li{
+	list-style-type: none;
+}
+
+.intro{
+
+	display: grid;
+	display-template-columns: repeat(12, 1fr);
+	height: 90vh;
+
+	img{
+		width:30%;
+		grid-column: 2/ span 3;
+		grid-row: 1;
+	}
+
+	h6{
+		font-family: 'Staatliches', cursive;
+		grid-row: 1;
+		grid-column: 3 / span 3;
+		font-size:15rem;
+		color: #DA1C5C;
+		line-height:10rem;
+
+	}
+
+
+}
+
+footer{
+	background-color: #EFEFEF;
+	font-family: 'Staatliches', cursive;
+	font-size: 1.5em;
+	img{
+		width:10%;
+	}
+
+}

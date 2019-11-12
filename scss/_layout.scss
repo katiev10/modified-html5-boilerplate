@@ -1,7 +1,40 @@
 
 
-// section{
-// 	display: grid;
-// 	grid-template-columns:repeat(12,1fr); 
-// 	grid-template-rows: 1fr;
-// }
+.different{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-column-gap: 2rem;
+	padding: 5rem;
+	margin: 2rem;
+
+
+	h1{
+		display: grid;
+		font-family: 'Staatliches', cursive;
+		font-size: 2rem;
+		justify-content: center;
+	}
+
+	p{
+		font-family: 'Roboto', sans-serif;
+	}
+
+}
+
+.natural{
+	background-color: #F9ED32;
+}
+
+.fresh{
+	background-color:#FBB040;
+}
+
+ .healthy{
+ 	background-color:#8DC63F;
+ }
+
+ h6{
+ 	font-family: 'Staatliches', cursive;
+ 	font-size: 3rem;
+ 	color: #DA1C5C;
+ }
