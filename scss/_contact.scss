@@ -1,0 +1,44 @@
+  
+ .contact{
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+
+    h2{
+    grid-row: 1/ span 3;
+    font-family: 'Staatliches', cursive;
+    font-size: 3rem;
+    }
+
+    p{
+        grid-column: 1 / span 3;
+        grid-row: 2 / span 5;
+    }
+
+
+form {
+ 
+form input {
+  margin-bottom: 1rem;
+  background: #fff;
+  border: 1px solid #9c9c9c;
+}
+form button {
+  background: lightgrey;
+  padding: 0.7em;
+  border: 0;
+}
+form button:hover {
+  background: ;
+}
+
+label {
+  text-align: right;
+  display: block;
+  padding: 0.5em 1.5em 0.5em 0;
+}
+
+input {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
