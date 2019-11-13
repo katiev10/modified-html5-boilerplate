@@ -1,10 +1,10 @@
   
  .contact{
     display: grid;
-    grid-template-columns: 1fr, 2fr;
+    grid-template-columns: 1fr 2fr;
 
     h2{
-    grid-row: 1/ span 3;
+    
     font-family: 'Staatliches', cursive;
     font-size: 3rem;
     }
@@ -14,10 +14,10 @@
         grid-row: 2 / span 5;
     }
 
-
-form {
+  }
  
 form input {
+
   margin-bottom: 1rem;
   background: #fff;
   border: 1px solid #9c9c9c;
@@ -28,7 +28,7 @@ form button {
   border: 0;
 }
 form button:hover {
-  background: ;
+  // background: ;
 }
 
 label {

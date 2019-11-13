@@ -3,24 +3,40 @@
   @media screen and (min-width: 40em){
     display: grid;
     grid-template-columns: 2fr 2fr 2fr;
-    height: 90vh;
+    height:100vh;
+  }
+  div {
+    display: grid;
   }
 
-  .benefit-calories{
+  .benefit-calorie{
     background-color:#DA1C5C;
   }
+
   .benefit-fiber{
       background-color:#8DC63F;
     }
 
+.benefit-immune{
+  background-color:#FBB040;
+}
+
+.benefit-blood{
+  background-color:#F9ED32;
+}
+.benefit-daily{
+  background-color: #005620
+}
+
+.benefit-fat{
+  background-color:#FFBFD8;
+}
+
   h4{
-    
     font-size: 4rem;
-    justify-content: center;
     font-family: 'Staatliches', cursive;
-    color:#ffff;
-    }
+    color:#ffffff;
+    text-align: center;
+    align-self:center;
+   }
 }
-
-}
-
