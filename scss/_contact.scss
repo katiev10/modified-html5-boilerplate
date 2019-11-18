@@ -2,6 +2,7 @@
  .contact{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    padding:2rem;
 
     h2{
     
@@ -15,17 +16,27 @@
     }
 
   }
- 
-form input {
+.form1{
+  grid-column: 2/ span 2;
+  background-color: #FFBFD8;
+  padding:4rem;
+  height: 50vh;
+  margin: 1rem;
+  font-family: 'Staatliches', cursive;
+}
 
+form input {
   margin-bottom: 1rem;
   background: #fff;
   border: 1px solid #9c9c9c;
+  
 }
 form button {
-  background: lightgrey;
-  padding: 0.7em;
+  background:#000000;
+  color:#ffff;
+  padding: 0.3em;
   border: 0;
+  font-family: 'Staatliches', cursive;
 }
 form button:hover {
   // background: ;
@@ -35,6 +46,7 @@ label {
   text-align: right;
   display: block;
   padding: 0.5em 1.5em 0.5em 0;
+   text-align: left;
 }
 
 input {
