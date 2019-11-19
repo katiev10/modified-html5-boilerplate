@@ -5,7 +5,7 @@
     grid-template-row: 1fr 1fr;
     grid-column-gap:2rem;
     padding:5rem;
-    margin:2rem
+    margin:2rem;
 }
 
 .different h1{
@@ -15,27 +15,33 @@
     grid-column: 1/ span 4;
 }
 .different p{
-    font-family:'Roboto', sans-serif
+    font-family:'Roboto', sans-serif;
 }
+
+.different img{
+    display: grid;
+    justify-self:center;
 
 .natural{
     background-color:#F9ED32;
     grid-row: 2;
+   
 }
 
 .fresh{
     background-color:#FBB040;
      grid-row: 2;
+     
+}
     img{
-        display: grid;
         width:30%;
-        justify-content: center;
-      }
+    }
 }
 
 .healthy{
     background-color:#8DC63F;
      grid-row: 2;
+}
     img{
         width:30;
     }

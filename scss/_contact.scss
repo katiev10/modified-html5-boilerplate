@@ -14,8 +14,8 @@
         grid-column: 1 / span 3;
         grid-row: 2 / span 5;
     }
-
   }
+
 .form1{
   grid-column: 2/ span 2;
   background-color: #FFBFD8;
@@ -28,7 +28,7 @@
 form input {
   margin-bottom: 1rem;
   background: #fff;
-  border: 1px solid #9c9c9c;
+  border-bottom: 3px solid ;
   
 }
 form button {
@@ -46,7 +46,7 @@ label {
   text-align: right;
   display: block;
   padding: 0.5em 1.5em 0.5em 0;
-   text-align: left;
+  text-align: left;
 }
 
 input {
