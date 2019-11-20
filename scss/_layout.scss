@@ -17,6 +17,7 @@
     padding:2rem;
     height: 120vh;
 }
+}
 
 .different section {
     text-align: center;
@@ -36,7 +37,7 @@
 
 .natural{
     background-color:#F9ED32;
-    height: 50vh;
+    height: 60vh;
     grid-row: 2;
     font-family: 'Roboto', sans-serif;
     img{
@@ -47,24 +48,24 @@
 
 .fresh{
     background-color:#FBB040;
-    height: 50vh;
+    height: 60vh;
      grid-row: 2;   
     font-family: 'Roboto', sans-serif;
-}
 
 img{
     width:30%;
 }
-
+}
 
 .healthy{
     background-color:#8DC63F;
-    height: 50vh;
+    height: 60vh;
      grid-row: 2;
 
     img{
          width:30;
         }
+    }
 
     h6 {
         text-align: center;
@@ -73,3 +74,4 @@ img{
         grid-column: 1 / span 3;
         color:#DA1C5C;
     }
+
