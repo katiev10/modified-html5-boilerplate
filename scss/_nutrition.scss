@@ -1,7 +1,12 @@
 .nutrition{
 	display: grid;
-	grid-template-columns: 1fr 2fr;
+	grid-template-columns: 2fr 2fr;
 	img{
-		width:10%;
+		width:30%;
+	}
+
+	h5{
+		font-size: 2rem;
+		text-align: center;
 	}
 }
