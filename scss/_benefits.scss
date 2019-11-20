@@ -1,4 +1,4 @@
-.benefits {
+.benefits{
 
   @media screen and (min-width: 40em){
     display: grid;
@@ -39,4 +39,11 @@
     text-align: center;
     align-self:center;
    }
+}
+
+.benefits section{
+  p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 5rem;
+  }
 }

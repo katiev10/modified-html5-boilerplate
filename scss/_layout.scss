@@ -20,7 +20,7 @@
 }
 .different p{
     font-family:'Roboto', sans-serif;
-    font-family: 'Roboto', sans-serif;
+      font-size: 1.5rem;
 }
 
 .natural{
@@ -28,6 +28,9 @@
     height: 50vh;
     grid-row: 2;
     font-family: 'Roboto', sans-serif;
+    img{
+        padding:2rem;
+    }
    
 }
 
