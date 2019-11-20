@@ -17,7 +17,7 @@ a{
 }
 
 ul li{
-	list-style-type: none;
+	list-style-type:center;
 }
 
 .intro{
@@ -39,10 +39,18 @@ ul li{
 
 
 footer{
+	display: grid;
+	grid-template-columns: repeat(3,2fr);
 	background-color:#EFEFEF;
 	font-family:'Staatliches', cursive;
 	font-size: 1.5em;
 	img{
 		width:10%;
 }
+}
+
+.social{
+	img{
+		width:3%;
+	}
 }

@@ -1,12 +1,16 @@
 .nutrition{
 	display: grid;
 	grid-template-columns: 2fr 2fr;
+	background-color: #EFEFEF;
+	height: 80vh;
+	padding-top: 5rem;
 	img{
-		width:30%;
+		width:50%;
 	}
 
 	h5{
 		font-size: 2rem;
 		text-align: center;
+		font-family:'Staatliches', cursive;
 	}
 }

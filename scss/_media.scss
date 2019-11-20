@@ -1,3 +1,17 @@
 .media{
+	display: grid;
+    grid-template-columns: repeat(12,1fr);
+    h4{
+    	font-size: 5rem;
+		text-align: center;
+		font-family:'Staatliches', cursive;	
+    }
+    p{
+    	grid-row: 2;
+    }
 
+    img{
+    	grid-row:3;
+    }
 }
+
